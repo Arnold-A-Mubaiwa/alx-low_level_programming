@@ -1,2 +1,0 @@
-#!/bin/bash
-except CFILE=main.c
