@@ -1,2 +1,4 @@
 #include <stdio.h>
-int main(void){
+int main(void){i
+	return (0);
+}
