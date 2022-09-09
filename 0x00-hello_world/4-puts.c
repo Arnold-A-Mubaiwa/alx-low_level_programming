@@ -1,4 +1,4 @@
-#include <stdiostdio.h>
+#include <stdio.h>
 
 int main(void){
 	char sent[] = "Programming is like building a multilingual puzzle";
