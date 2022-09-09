@@ -9,6 +9,6 @@ int main(void)
 {
 	char sent[]="with proper grammar, but the outcome is a piece of art,";
 
-	printf('%s',sent);
+	printf("%s",sent);
 	return(0);
 }
