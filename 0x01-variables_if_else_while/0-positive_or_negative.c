@@ -1,12 +1,12 @@
 #include <stdlib.h>
 #include <stdio.h>
-/* more headers goes there */
 #include <time.h>
+/* more headers goes there */
 
 /**
  * more header files goes on top
  *
- * main- function entry point
+ * main - function entry point
  * Return: returns 0 (zero)
  */
 /*betty style doc for function main goes there */
