@@ -19,6 +19,7 @@ int main(void)
 				putchar(alphabet[y]);
 			else
 				putchar(toupper(alphabet[y]));
+			y++;
 		}
 	}
 	putchar('\n');
