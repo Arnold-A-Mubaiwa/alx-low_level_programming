@@ -16,7 +16,7 @@ int main(void)
 		while (y <= 25)
 		{
 			if (x == 0)
-				putchar(toupper(alphabet[y]));
+				putchar(alphabet[y]);
 			else
 				putchar(toupper(alphabet[y]));
 			y++;
