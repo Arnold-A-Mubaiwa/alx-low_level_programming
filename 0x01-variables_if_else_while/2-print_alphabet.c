@@ -15,6 +15,6 @@ int main(void)
 		putchar(alphabet[x]);
 		x++;
 	}
-	putchar(' ');
+	/* putchar(' '); */
 	return (0);
 }
