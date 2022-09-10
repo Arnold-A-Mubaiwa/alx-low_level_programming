@@ -7,13 +7,13 @@
  */
 int main(void)
 {
-	int x = 0;
-	char alphabet[] = "0123456789";
+	int x = 48;
+	/* char alphabet[] = "0123456789";*/
 
-	while (x < 10)
+	while (x < 58)
 	{
-		putchar(alphabet[x]);
-		if (alphabet[x] != '9')
+		putchar(x);
+		if (x != 57)
 		{
 			putchar(',');
 			putchar(' ');
