@@ -11,12 +11,12 @@ int main(void)
 	int x;
 	int y = 0;
 
-	for(x = 0; x < 2; x++)
+	for (x = 0; x < 2; x++)
 	{
-		while(y <= 25)
+		while (y <= 25)
 		{
 			if (x == 0)
-				putchar(alphabet[y]);
+				putchar(toupper(alphabet[y]));
 			else
 				putchar(toupper(alphabet[y]));
 			y++;
