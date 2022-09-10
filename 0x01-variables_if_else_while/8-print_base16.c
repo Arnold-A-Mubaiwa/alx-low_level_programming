@@ -11,7 +11,7 @@ int main(void)
 	int x = 0;
 	char alphabet[] = "0123456789abcdef";
 
-	while (x <= 16)
+	while (x < 16)
 	{
 		putchar(alphabet[x]);
 		x++;
