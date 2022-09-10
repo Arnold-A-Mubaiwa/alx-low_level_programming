@@ -21,6 +21,7 @@ int main(void)
 				putchar(toupper(alphabet[y]));
 			y++;
 		}
+		x++;
 	}
 	putchar('\n');
 
