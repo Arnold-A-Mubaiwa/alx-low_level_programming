@@ -7,13 +7,13 @@
  */
 int main(void)
 {
-	char alphabet[]= "abcdefghijklmnopqrstuvwxyz";
+	char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
 	int x = 0;
-	while(x <= 26)
+
+	while (x <= 26)
 	{
 		putchar(alphabet[x]);
 		x++;
 	}
-	putchar('\n');
 	return (0);
 }
