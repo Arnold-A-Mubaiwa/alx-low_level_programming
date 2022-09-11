@@ -11,12 +11,6 @@ int main(void)
 	int x = 48;
 	int y = 48;
 	int z = 48;
-	/* char alphabet[] = "abcdefghijklmnopqrstuvwxyz";*/
-	/**
-	 * alphanumeric characters {a-z} {0-9} {special char}
-	 * they start from {a-z} 65-90 and {0-9} 48-57
-	 * {A-Z} 97-122
-	 */
 
 	while (x < 58)
 	{
@@ -24,37 +18,30 @@ int main(void)
 
 		while (y < 58)
 		{
-			if (x == y)
+			z = y+1;
+			while (z < 58)
 			{
-				y++;
-				continue;
-			}
-			else
-			{
-				z = y+1;
-				while (z < 58)
-				{
 
-					if (y == z || x == z)
+				if (y == z || x == z || x ==y)
+				{
+					y++;
+					z++;
+					continue;
+				}
+				else
+				{
+					putchar(x);
+					putchar(y);
+					putchar(z);
+					if ((x == 55) && (y == 56) && (z == 57))
 					{
-						z++;
-						continue;
+						putchar('\n');
+						return (0);
 					}
 					else
 					{
-						putchar(x);
-						putchar(y);
-						putchar(z);
-						if ((x == 55) && (y == 56) && (z == 57))
-						{
-							putchar('\n');
-							return (0);
-						}
-						else
-						{
-							putchar(',');
-							putchar(' ');
-						}
+						putchar(',');
+						putchar(' ');
 					}
 					z++;
 				}
