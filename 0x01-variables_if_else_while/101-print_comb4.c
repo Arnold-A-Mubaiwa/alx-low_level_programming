@@ -20,7 +20,7 @@ int main(void)
 
 	while (x < 58)
 	{
-		y = 48;
+		y = x+1;
 
 		while (y < 58)
 		{
@@ -31,7 +31,7 @@ int main(void)
 			}
 			else
 			{
-				z = 48;
+				z = y+1;
 				while (z < 58)
 				{
 
