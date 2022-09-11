@@ -1,6 +1,4 @@
-
 #include <stdio.h>
-
 /**
  * main - main entry of a program
  *
@@ -8,21 +6,18 @@
  */
 int main(void)
 {
-	int x = 48;
-	int y = 48;
-	int z = 48;
+	int x = 48, y, z;
 
 	while (x < 58)
 	{
-		y = x+1;
-
+		y = x + 1;
 		while (y < 58)
 		{
-			z = y+1;
+			z = y + 1;
 			while (z < 58)
 			{
 
-				if (y == z || x == z || x ==y)
+				if (y == z || x == z || x == y)
 				{
 					y++;
 					z++;
