@@ -22,8 +22,10 @@ int main(void)
 		y = i + 1;
 		while (i < 58)
 		{
+			/*y = i + 1;*/
 			while (x < 58)
 			{
+				y = i + 1;
 				while (y < 58)
 				{
 					putchar(z);
@@ -31,12 +33,14 @@ int main(void)
 					putchar(' ');
 					putchar(x);
 					putchar(y);
+					if (x == 57 && i == 56 && z == 57 && y == 57)
+						break;
 					putchar(',');
 					putchar(' ');
 					y++;
 				}
 				x++;
-				y = i + 1;
+				/* y = i + 1;*/
 			}
 			i++;
 			x = 48;
