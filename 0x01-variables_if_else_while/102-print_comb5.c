@@ -19,7 +19,7 @@ int main(void)
 	 */
 	while (z < 58)
 	{
-		y = z + 1;
+		y = i + 1;
 		while (i < 58)
 		{
 			while (x < 58)
@@ -36,7 +36,7 @@ int main(void)
 					y++;
 				}
 				x++;
-				y = z + 1;
+				y = i + 1;
 			}
 			i++;
 			x = 48;	
