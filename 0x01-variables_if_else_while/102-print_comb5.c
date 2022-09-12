@@ -8,7 +8,7 @@
 int main(void)
 {
 	int x = 48;
-	int y = 48;
+	int y;
 	int z = 48;
 	int i = 48;
 	/* char alphabet[] = "abcdefghijklmnopqrstuvwxyz";*/
@@ -19,6 +19,7 @@ int main(void)
 	 */
 	while (z < 58)
 	{
+		y = z + 1;
 		while (i < 58)
 		{
 			while (x < 58)
@@ -35,7 +36,7 @@ int main(void)
 					y++;
 				}
 				x++;
-				y = 48;
+				y = z + 1;
 			}
 			i++;
 			x = 48;	
