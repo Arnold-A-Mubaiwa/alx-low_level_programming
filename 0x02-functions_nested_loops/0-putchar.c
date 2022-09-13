@@ -9,8 +9,6 @@
  */
 int main(void)
 {
-	int x = 48;
-	int y;
 	/* char alphabet[] = "abcdefghijklmnopqrstuvwxyz";*/
 	/**
 	 * alphanumeric characters {a-z} {0-9} {special char}
