@@ -1,53 +1,47 @@
 #include <stdio.h>
 
 /**
- * main - main entry of a program
- *
- * Return: return 0 (zero)
- */
+* main - Prints numbers between 0 to 99.
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
-	int x = 48;
-	int y;
-	int z = 48;
-	int i = 48;
-	/* char alphabet[] = "abcdefghijklmnopqrstuvwxyz";*/
-	/**
-	 * alphanumeric characters {a-z} {0-9} {special char}
-	 * they start from {a-z} 65-90 and {0-9} 48-57
-	 * {A-Z} 97-122
-	 */
-	while (z < 58)
+int i, e, g, h, op1, op2;
+i = e = g = h = 48;
+while (h < 58)
+{
+	g = 48;
+	while (g < 58)
 	{
-		y = i + 1;
-		while (i < 58)
+		e = 48;
+		while (e < 58)
 		{
-			/*y = i + 1;*/
-			while (x < 58)
+			i = 48;
+			while (i < 58)
 			{
-				y = i + 1;
-				while (y < 58)
+				op1 = (h * 10) + g;
+				op2 = (e * 10) + i;
+				if (op1 < op2)
 				{
-					putchar(z);
-					putchar(i);
+					putchar(h);
+					putchar(g);
 					putchar(' ');
-					putchar(x);
-					putchar(y);
-					if (x == 57 && i == 56 && z == 57 && y == 57)
+					putchar(e);
+					putchar(i);
+					if (h == 57 && g == 56 && e == 57 && i == 57)
 						break;
 					putchar(',');
 					putchar(' ');
-					y++;
 				}
-				x++;
-				/* y = i + 1;*/
+				i++;
 			}
-			i++;
-			x = 48;
+			e++;
 		}
-		z++;
-		i = 48;
+		g++;
 	}
-	putchar('\n');
-	return (0);
+	h++;
+}
+putchar('\n');
+return (0);
 }
