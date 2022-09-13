@@ -1,7 +1,7 @@
 void _putchar(char charcters[])
 {
-	long int i =  0;
-	while (i < strlen(charcters))
+	int i =  0;
+	while (i < 8)
 	{
 		putchar(charcters[i]);
 		i++;
