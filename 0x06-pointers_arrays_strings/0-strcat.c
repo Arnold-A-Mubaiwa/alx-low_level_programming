@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <string.h>
 
+/**
+ * _strcat - concates 2 strings together
+ * @dest: is the initial value
+ * @src: is the second value
+ * Return: returning the array dest concated
+ */
 char *_strcat(char *dest, char *src)
 {
 	int x;
